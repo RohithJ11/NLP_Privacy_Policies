@@ -1,2 +1,2 @@
 # NLP_Privacy_Policies
-NLP_Privacy_Policies
+NLP_Privacy_Policies: This project focuses on the summarization and extraction of keywords from privacy policies using advanced abstractive NLP models. The primary objective is to provide an automated way to digest lengthy privacy policies into concise summaries and highlight the main keywords. This is crucial for enhancing user understanding and compliance with privacy regulations. We utilize various abstractive NLP models such as Hugging Face's Transformer Model and the Text-to-Text Transfer Transformer (T5) for this purpose and plan to explore additional models for improving accuracy and efficiency.
