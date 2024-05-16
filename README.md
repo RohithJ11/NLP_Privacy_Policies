@@ -23,6 +23,8 @@ Each model was used to generate summaries for a set of texts. These summaries we
 ## Results
 The evaluation results indicated that the T5 Transformer model outperformed the other models. Below are the visualized results of the average precision, recall, and F-measure scores:
 Average Precision Scores
+<img width="1018" alt="Screenshot 2024-05-14 at 9 47 11 AM" src="https://github.com/RohithJ11/NLP_Privacy_Policies/assets/165297272/b3a39e79-103d-4e67-8765-ad79514a8447">
+
 •	T5: Exhibits the highest precision across all ROUGE types, indicating that its generated summaries closely match the reference summaries in terms of relevant content.
 •	BERT: Performs moderately well, particularly in ROUGE-1, showing that it captures many relevant unigrams.
 •	BART: Has the lowest precision scores among the three models, suggesting its summaries are less concise compared to the reference summaries.
