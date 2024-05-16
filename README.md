@@ -22,21 +22,21 @@ All models were trained using the Google Colab environment to leverage its compu
 Each model was used to generate summaries for a set of texts. These summaries were then evaluated using the ROUGE metrics, which compare the overlap of n-grams between the generated summary and a reference summary. The ROUGE scores were averaged to provide a comprehensive performance comparison.
 ## Results
 The evaluation results indicated that the T5 Transformer model outperformed the other models. Below are the visualized results of the average precision, recall, and F-measure scores:
-Average Precision Scores
 <img width="1018" alt="Screenshot 2024-05-14 at 9 47 11 AM" src="https://github.com/RohithJ11/NLP_Privacy_Policies/assets/165297272/b3a39e79-103d-4e67-8765-ad79514a8447">
 
-•	T5: Exhibits the highest precision across all ROUGE types, indicating that its generated summaries closely match the reference summaries in terms of relevant content.
-•	BERT: Performs moderately well, particularly in ROUGE-1, showing that it captures many relevant unigrams.
-•	BART: Has the lowest precision scores among the three models, suggesting its summaries are less concise compared to the reference summaries.
+Average Precision Scores
+T5: Exhibits the highest precision across all ROUGE types, indicating that its generated summaries closely match the reference summaries in terms of relevant content.
+BERT: Performs moderately well, particularly in ROUGE-1, showing that it captures many relevant unigrams.
+BART: Has the lowest precision scores among the three models, suggesting its summaries are less concise compared to the reference summaries.
 
 Average Recall Scores
-•	BERT: Leads in recall scores, especially in ROUGE-1 and ROUGE-L, indicating it captures a broader range of relevant content from the original texts.
-•	BART: Follows closely with strong performance in ROUGE-2 and ROUGE-L, showing it captures relevant bigrams and long sequences well.
-•	T5: Has the lowest recall scores, despite its high precision, suggesting it generates more concise but slightly less comprehensive summaries.
+BERT: Leads in recall scores, especially in ROUGE-1 and ROUGE-L, indicating it captures a broader range of relevant content from the original texts.
+BART: Follows closely with strong performance in ROUGE-2 and ROUGE-L, showing it captures relevant bigrams and long sequences well.
+T5: Has the lowest recall scores, despite its high precision, suggesting it generates more concise but slightly less comprehensive summaries.
 
 Average F-measure Scores
-•	T5: Scores highest on the F-measure, balancing precision and recall effectively, making it the best performer overall.
-•	BART and BERT: Have similar F-measure scores, with BART slightly ahead in ROUGE-L, indicating a balanced but slightly less effective performance compared to T5.
+T5: Scores highest on the F-measure, balancing precision and recall effectively, making it the best performer overall.
+BART and BERT: Have similar F-measure scores, with BART slightly ahead in ROUGE-L, indicating a balanced but slightly less effective performance compared to T5.
 #Conclusion
 Based on the average ROUGE scores, the T5 Transformer model is the most effective for summarizing privacy policies among the models tested in this project. Its balance of precision and recall makes it particularly suitable for generating concise and accurate summaries.
 
